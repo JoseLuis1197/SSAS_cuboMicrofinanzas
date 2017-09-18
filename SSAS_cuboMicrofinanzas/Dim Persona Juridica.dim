@@ -1,0 +1,181 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2b8613a7-4bb1-490c-b112-b50e6a0d78cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Persona Juridica</ID>
+  <Name>Dim Persona Juridica</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9a457f89-79cf-4d82-99de-a8551b965b17">
+    <DataSourceViewID>BD MICROFINANZAS BI DM</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="2651001a-dc4f-4ff1-83e0-5b5a4599797c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="91e7c8ba-e3c8-4417-b7bf-fa8b6978a1f7">
+      <ID>i Id Persona</ID>
+      <Name>i Id Persona</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c1c9b5e-b493-4587-89d9-5069ec8023a8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="483fcf8e-146c-43c9-9a2d-49d45acbca37">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>iIdPersona</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="7689708d-f89d-4fea-b2ec-df8973114158">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a945912-30a3-49c5-a032-ba6c93d7fd35">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>vNombre</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="450e4a9b-573e-4ad3-ae0e-b60f16414a8d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5c04cf4-dc6a-499d-9c8b-cd046e1c5571">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>iTipoActividad</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="6ae92f63-c490-4a65-8665-4adffd1913be">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbea99a1-0a1b-4ef7-8bec-b8c044a1ff80">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>vTipoActividad</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e7c6c86b-9b77-43b2-ba4e-47b88eb502f8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b4136f1-a3a4-448b-b0bd-6beffe0b6ec5">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>iTipoGiro</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e3e3a352-9659-4a7d-b12b-c97ffbfce2a6">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3136c94f-0a57-4604-891b-830e20495caa">
+            <TableID>dbo_dimPersonaJuridica</TableID>
+            <ColumnID>vTipoGiro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b892e303-54bd-4086-82fc-8edcdc38506e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7fc2b458-5206-413b-a824-dc80c6c90474">
+          <TableID>dbo_dimPersonaJuridica</TableID>
+          <ColumnID>iIdPersona</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e0c1bcd2-bf25-4d1e-be19-c2f6687b72de">
+          <AttributeID>i Id Tipo Persona</AttributeID>
+          <Name>i Id Tipo Persona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b60685dd-bdb7-4cf9-9b92-6fa4574d1cc0">
+          <AttributeID>v Tipo Persona</AttributeID>
+          <Name>v Tipo Persona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1ea2879f-ce89-44b3-8234-2ba431c123cb">
+          <AttributeID>i Id Persona T</AttributeID>
+          <Name>i Id Persona T</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c4f70d2-81ad-43c1-bb7d-7205a542bf4a">
+      <ID>i Id Tipo Persona</ID>
+      <Name>i Id Tipo Persona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7b6b216-421e-4e34-8a7d-47fba7039c93">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20fe366b-56cf-4214-91af-e31c740ede64">
+            <TableID>dbo_dimPersona</TableID>
+            <ColumnID>iIdTipoPersona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="47790c0c-0bcd-403b-a8a7-098a9e968346">
+      <ID>v Tipo Persona</ID>
+      <Name>v Tipo Persona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4cf828e-efd4-40aa-8f50-375c760e9cde">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="418de8fd-19af-4584-983f-1e24e1245186">
+            <TableID>dbo_dimPersona</TableID>
+            <ColumnID>vTipoPersona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec97b6c0-5b9b-4ac5-85e1-6e3625789b22">
+      <ID>i Id Persona T</ID>
+      <Name>i Id Persona T</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71d555fb-5a40-41c1-b9a7-b11dccb49b40">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb926d7b-1076-41af-9fad-03f27284ca87">
+            <TableID>dbo_dimPersona</TableID>
+            <ColumnID>iIdPersonaT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

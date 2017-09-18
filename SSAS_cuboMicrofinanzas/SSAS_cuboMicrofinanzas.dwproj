@@ -6,10 +6,75 @@
     <Name>SSAS_cuboMicrofinanzas.database</Name>
     <FullPath>SSAS_cuboMicrofinanzas.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>BD MICROFINANZAS BI DM.cube</Name>
+      <FullPath>BD MICROFINANZAS BI DM.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BD MICROFINANZAS BI DM.partitions</Name>
+          <FullPath>BD MICROFINANZAS BI DM.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Fecha.dim</Name>
+      <FullPath>Dim Fecha.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Persona.dim</Name>
+      <FullPath>Dim Persona.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Agencia.dim</Name>
+      <FullPath>Dim Agencia.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Producto Modelo.dim</Name>
+      <FullPath>Dim Producto Modelo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Persona Juridica.dim</Name>
+      <FullPath>Dim Persona Juridica.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Persona Natural.dim</Name>
+      <FullPath>Dim Persona Natural.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>BD MICROFINANZAS BI DM.ds</Name>
+      <FullPath>BD MICROFINANZAS BI DM.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>BD MICROFINANZAS BI DM.dsv</Name>
+      <FullPath>BD MICROFINANZAS BI DM.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>BD MICROFINANZAS BI DM</Id>
+            <Name>BD MICROFINANZAS BI DM</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=JOSE\SQL2016;Integrated Security=SSPI;Initial Catalog=BD_MICROFINANZAS_BI_DM</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>BD MICROFINANZAS BI DM</Id>
+            <Name>BD MICROFINANZAS BI DM</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

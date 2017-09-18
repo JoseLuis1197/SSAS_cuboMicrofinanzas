@@ -1,0 +1,246 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9bacd184-d9b3-4997-9827-2de0b974fc39" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BD MICROFINANZAS BI DM</ID>
+  <Name>BD MICROFINANZAS BI DM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b888983d-b0b5-46ad-8b5b-48b9c4578b16">
+      <ID>Dim Fecha</ID>
+      <Name>Dim Fecha</Name>
+      <DimensionID>Dim Fecha</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1ff02520-13b1-4b75-92d0-fe4f428e883c">
+          <AttributeID>i Id Fecha</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="172eeb15-50c3-4f2e-a3d2-f8fca144ff45">
+      <ID>Dim Persona</ID>
+      <Name>Dim Persona</Name>
+      <DimensionID>Dim Persona</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="21835ee0-744b-475c-81fe-9d803d0e0ebc">
+          <AttributeID>i Id Persona</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="382f4a75-1e9c-47bd-a196-1c45671a0b93">
+      <ID>Dim Agencia</ID>
+      <Name>Dim Agencia</Name>
+      <DimensionID>Dim Agencia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aae283fc-5e45-48cb-91ed-b2c52ec0091a">
+          <AttributeID>i Id Agencia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="167a680f-3672-4f5b-9c9b-6994d0f09bbe">
+      <ID>Dim Producto Modelo</ID>
+      <Name>Dim Producto Modelo</Name>
+      <DimensionID>Dim Producto Modelo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="447b0427-0889-4c19-b21b-5b6c1737a3ef">
+          <AttributeID>i Id Producto Modelo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="99a995fe-04a9-47b5-a56d-e109626b70fd">
+      <ID>Fact Desembolso Mora</ID>
+      <Name>Fact Desembolso Mora</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="8715a823-b793-4632-83a1-c63fbe879c03">
+          <ID>i Cantidad Dias Mora</ID>
+          <Name>i Cantidad Dias Mora</Name>
+          <Source dwd:design-time-name="f5faf374-23aa-4f9a-8099-e84f15a19e25">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="63654ad8-f47f-4bd8-8042-338bd539f690">
+              <TableID>dbo_factDesembolsoMora</TableID>
+              <ColumnID>iCantidadDiasMora</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="317f3696-fc7a-4a8d-832c-cefa7afe0f23">
+          <ID>Dc Monto Promedio Mora</ID>
+          <Name>Dc Monto Promedio Mora</Name>
+          <Source dwd:design-time-name="544fe334-1efa-46eb-8a74-86682f1c8007">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e42a2818-0f65-49f5-a393-ecd7807b3a87">
+              <TableID>dbo_factDesembolsoMora</TableID>
+              <ColumnID>dcMontoPromedioMora</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="85801c67-591e-4d09-a128-62a26f41f1b8">
+          <ID>i Cantidad Creditos Desembolsados</ID>
+          <Name>i Cantidad Creditos Desembolsados</Name>
+          <Source dwd:design-time-name="f2c78156-b06a-4463-a6ce-e62e66b01f2b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de3070e8-ffc2-4645-bfa5-5b97b1076f9f">
+              <TableID>dbo_factDesembolsoMora</TableID>
+              <ColumnID>iCantidadCreditosDesembolsados</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5ff6f392-e3d4-49a3-ae6b-8c1382d267d7">
+          <ID>Dc Monto Total Desembolsado</ID>
+          <Name>Dc Monto Total Desembolsado</Name>
+          <Source dwd:design-time-name="666557f2-1f4b-40f6-bb7a-2a679141464b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="498beb88-1f0a-4367-aa1e-d46223d0e758">
+              <TableID>dbo_factDesembolsoMora</TableID>
+              <ColumnID>dcMontoTotalDesembolsado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c57e2613-0333-443e-8ae1-a6da0b8bf1c4">
+          <ID>Dc Monto Promedio</ID>
+          <Name>Dc Monto Promedio</Name>
+          <Source dwd:design-time-name="71cd542e-2be0-4a8e-9567-ab869833c9c9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6a8f4d91-7b39-475c-8ed0-f911a7c24b13">
+              <TableID>dbo_factDesembolsoMora</TableID>
+              <ColumnID>dcMontoPromedio</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b1c19fe-bbce-4aaa-9a3d-24d1f9550399">
+          <ID>Fact Desembolso Mora Count</ID>
+          <Name>Fact Desembolso Mora Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b7662fa2-71ec-4745-80ee-f3548026385f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1305777b-935f-459f-87fb-f5832b4524e9">
+              <TableID>dbo_factDesembolsoMora</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d5db2aeb-fd07-46ca-a75b-d5548669c1b6">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="860255f8-363e-48ad-b72b-912335b05b1d">
+              <AttributeID>i Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5e25fa68-218b-45f5-b70a-b3dc9325391f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9f86baf6-094e-446a-9e3d-4ddfdcdaa121">
+                    <TableID>dbo_factDesembolsoMora</TableID>
+                    <ColumnID>iIdFecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="40b59d87-6a6e-4665-97b6-5234bcc367a0">
+          <CubeDimensionID>Dim Persona</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3e1b2988-ea6c-4f2b-9ce2-bfef36628b51">
+              <AttributeID>i Id Persona</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9e845f6f-65ec-4d3f-a230-e32452cf5cbb">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f38b213a-2aba-4edc-9851-999bd0bf0527">
+                    <TableID>dbo_factDesembolsoMora</TableID>
+                    <ColumnID>iIdPersona</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="08d0b601-12fd-4457-b460-59407669b977">
+          <CubeDimensionID>Dim Agencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d32a2b1a-988c-429a-9e85-4722aa97da9f">
+              <AttributeID>i Id Agencia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b55e8bf-443a-4a97-b9c4-c7c33fc62b17">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2c4838cc-700d-4050-813f-54c353944481">
+                    <TableID>dbo_factDesembolsoMora</TableID>
+                    <ColumnID>iIdAgencia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="de6eef1d-1317-403f-bd10-9a231c56081f">
+          <CubeDimensionID>Dim Producto Modelo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="61dfdf2f-541e-4ef7-952d-a7cbebd12144">
+              <AttributeID>i Id Producto Modelo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f805ecfb-a36b-4f13-bb62-3258f9988e7c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e8a3bd26-0c25-4527-a528-01b83d5ee8aa">
+                    <TableID>dbo_factDesembolsoMora</TableID>
+                    <ColumnID>iIdProductoModelo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="96b6c408-ba10-44e8-a112-ee349db8a23f">
+    <DataSourceViewID>BD MICROFINANZAS BI DM</DataSourceViewID>
+  </Source>
+</Cube>
