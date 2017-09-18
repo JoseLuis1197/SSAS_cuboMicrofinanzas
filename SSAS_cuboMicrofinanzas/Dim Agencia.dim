@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a805bbae-5b8b-451f-9146-f170b85dd4b2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="577d3a7f-d503-46cf-85c6-5c5931172b0f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Agencia</ID>
   <Name>Dim Agencia</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2308" scrolltop="-1853" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7805" y="9234" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="dimAgencia" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3149" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004d0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimAgencia" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2308</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-1853</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,30 +68,229 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f47a0439-d328-4cda-b4f6-1f7ed8b62700">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6c971ac9-a6ae-467b-8e57-8e251bc28c4c">
     <DataSourceViewID>BD MICROFINANZAS BI DM</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="1c6f6452-7541-4d11-a017-96332df8e823">
+  <ErrorConfiguration dwd:design-time-name="c3ab8288-1647-4fa0-9246-3cb5a7ae27ee">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="ab33170c-fdde-409d-b222-0e30f5ad8c56">
+    <Attribute dwd:design-time-name="97e290a4-fc87-4724-b558-3be6aa9b53d2">
       <ID>i Id Agencia</ID>
       <Name>i Id Agencia</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="dd3c619d-7fc8-4356-a76c-5e199d9d5dd8">
+        <KeyColumn dwd:design-time-name="5ac5f6e5-18fa-47c1-aa8b-7d2ba55fee73">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="87b37e1b-8ccc-4b30-a93d-4e98e7dd62e1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="88c5d512-5409-4a7e-827e-78324618695e">
             <TableID>dbo_dimAgencia</TableID>
             <ColumnID>iIdAgencia</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d3f300f7-98ca-457d-be00-6850de506b34">
+          <AttributeID>i Id Agencia T</AttributeID>
+          <Name>i Id Agencia T</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c3e2129-d79f-41a2-a6f3-0cdf3ba5d603">
+          <AttributeID>v Nom Agencia</AttributeID>
+          <Name>v Nom Agencia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cf1d8f5a-e19a-4e2f-8546-d66c7dca0885">
+          <AttributeID>f Latitud</AttributeID>
+          <Name>f Latitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d9a8a542-4971-45c3-840b-e6bffb74c858">
+          <AttributeID>f Longitud</AttributeID>
+          <Name>f Longitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e5ab4a63-1a2c-4043-b1de-2b3efe6c72d5">
+          <AttributeID>v Direccion</AttributeID>
+          <Name>v Direccion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f67a04d-3243-4ae8-8886-98800964908e">
+          <AttributeID>v Distrito</AttributeID>
+          <Name>v Distrito</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="26b2ea5b-b74b-4b39-990a-5a63e80ba469">
+          <AttributeID>v Provincia</AttributeID>
+          <Name>v Provincia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="883f1766-dfc1-4a5d-8b06-8ff47bb0daf0">
+          <AttributeID>v Departamento</AttributeID>
+          <Name>v Departamento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b7ea141c-f9b6-445c-b71b-5a9bf6144a5b">
+          <AttributeID>v Grupo Zona</AttributeID>
+          <Name>v Grupo Zona</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="893fd094-94ce-4476-95f8-91daebb8f688">
+          <AttributeID>v Territorio</AttributeID>
+          <Name>v Territorio</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3cc8fe8a-5295-4b7a-8998-b26f4e2d049b">
+      <ID>i Id Agencia T</ID>
+      <Name>i Id Agencia T</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61e2007d-a195-4b55-acd6-2164a77c91ce">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49bb3cb9-5405-4b41-8290-17059a4a6744">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>iIdAgenciaT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="405f3149-c861-4f6f-bb3b-486ddaf054b8">
+      <ID>v Nom Agencia</ID>
+      <Name>v Nom Agencia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d4f5253-9493-44cd-a57a-8dc8b81d9b1d">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ba23eb9-9014-4050-bc28-eb63d8a18477">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vNomAgencia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b1e94f94-5f53-469c-b19d-cfa42531ee9b">
+      <ID>f Latitud</ID>
+      <Name>f Latitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="28c60fd5-fdb6-466a-9ca4-1cd19bcc7162">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfbb754a-7906-4f3f-b4f4-de48267752c9">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>fLatitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c32e555c-dca2-489c-b056-d43698e4fff9">
+      <ID>f Longitud</ID>
+      <Name>f Longitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8fcc8bf9-01a6-433b-82c6-e4f6c921cade">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1271053c-9ee2-4816-bac2-5f668961dfbe">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>fLongitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea907306-3082-4c08-9f88-622b27bace0b">
+      <ID>v Direccion</ID>
+      <Name>v Direccion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0de41689-2d1c-478a-a6d5-679d5455c2f4">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4dad2b1c-69e6-4843-bd24-aa97daf7e04e">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vDireccion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a755d837-9c36-4e44-a0a7-ae488e49162a">
+      <ID>v Distrito</ID>
+      <Name>v Distrito</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97ad7623-6dc1-438d-a715-41208237db04">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01d91fd8-6a06-4fb8-9b9b-e05b86b32b3c">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vDistrito</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1897aa29-d2c1-44d0-81c6-eac6d43154ec">
+      <ID>v Provincia</ID>
+      <Name>v Provincia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ac989ef-624e-41dd-8dcf-f1dc5b0b191b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65992f56-a704-4d82-82a8-8291991cf2e4">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vProvincia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f63256d1-b036-49c4-b3e1-4871c701c8ca">
+      <ID>v Departamento</ID>
+      <Name>v Departamento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="57564bf4-4f56-4873-bbca-a312c47bd881">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="536733dd-9b86-4fd3-b8ef-6894ebab2e11">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vDepartamento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6c6e254-141a-45e9-9d2c-a0e5e13109e2">
+      <ID>v Grupo Zona</ID>
+      <Name>v Grupo Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fdd613a-9085-44c3-98a9-27a76597afdf">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e01ff18-a276-4492-8c78-b592916980d0">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vGrupoZona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f45d4361-4e5f-417a-b11d-e7a164ca6af7">
+      <ID>v Territorio</ID>
+      <Name>v Territorio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4eafde9-da66-4d2f-bff5-3afa162d28a0">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b30b766f-6229-4446-8e6a-a6eb800dc55a">
+            <TableID>dbo_dimAgencia</TableID>
+            <ColumnID>vTerritorio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

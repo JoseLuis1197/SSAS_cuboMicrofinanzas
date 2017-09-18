@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b63d40c7-b344-45dc-b1f5-ea923f967077" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="114c3f3c-2cde-48d3-acea-b4d70afe4cb9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Persona Natural</ID>
   <Name>Dim Persona Natural</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,75 +42,75 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="764e3c04-e936-4161-bbad-5b50b0b772f8">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="444f085b-ec78-4083-99e2-e111fa2d6e33">
     <DataSourceViewID>BD MICROFINANZAS BI DM</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="9688da3b-a39e-4475-aef3-3d312e9a3ece">
+  <ErrorConfiguration dwd:design-time-name="1e0d5f38-ee36-4ff8-af24-d6664d296945">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="58185fb1-87af-410b-bee4-975cd88c90e0">
+    <Attribute dwd:design-time-name="fe8e868f-8b07-4319-af12-ce9df3bcb400">
       <ID>i Id Persona</ID>
       <Name>i Id Persona</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2c60686b-7336-4422-ba9c-af0a45db4318">
+        <KeyColumn dwd:design-time-name="bb45f49f-8e00-4617-8b30-7c0156279e31">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f14ed85-47fd-4eb1-a17d-4e71394f22d8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="421fdfd8-2138-4757-a099-2aaa0412a3c2">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>iIdPersona</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="905bdd11-0e1c-4647-838f-f678268dd2be">
+        <AttributeRelationship dwd:design-time-name="6fc0120b-8409-4796-aaa0-580a3448d1f1">
           <AttributeID>v Nombre</AttributeID>
           <Name>v Nombre</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0a5b3cd5-4347-4e4a-af01-97b3c20bb644">
+        <AttributeRelationship dwd:design-time-name="e317a934-b837-4745-b22b-3dcdf3a0ad4f">
           <AttributeID>i Tipo Ingreso</AttributeID>
           <Name>i Tipo Ingreso</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="54f643a2-fd8d-4cb8-ae06-eeb9af07c90f">
+        <AttributeRelationship dwd:design-time-name="1d615c32-7099-485d-8967-0d00a778600f">
           <AttributeID>v Tipo Ingreso</AttributeID>
           <Name>v Tipo Ingreso</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2a734019-1476-444b-9465-da1b8c766c92">
+        <AttributeRelationship dwd:design-time-name="63e3e936-a33a-4bed-8258-0f25944f8cce">
           <AttributeID>i Tipo Sexo</AttributeID>
           <Name>i Tipo Sexo</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4fafadc2-f557-4230-b285-da5abaf451ab">
+        <AttributeRelationship dwd:design-time-name="429227fa-1152-486d-8846-5dff6d6afbb6">
           <AttributeID>v Tipo Sexo</AttributeID>
           <Name>v Tipo Sexo</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3af35abf-4d84-454e-b7c2-1537a72612ae">
+        <AttributeRelationship dwd:design-time-name="7c10e07e-04dd-4c1d-8b22-540ca77cf88f">
           <AttributeID>i Estado Civil</AttributeID>
           <Name>i Estado Civil</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4f086b11-54dd-44fd-8b56-b073a14a2ab1">
+        <AttributeRelationship dwd:design-time-name="f3bfb9d9-dcb2-4571-844b-2deab91c6627">
           <AttributeID>v Estado Civil</AttributeID>
           <Name>v Estado Civil</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c2b06bdf-d3fb-45b9-8035-28bb537471b1">
+        <AttributeRelationship dwd:design-time-name="603c37b3-c190-44ba-9224-cd3c3f951ffa">
           <AttributeID>i Tipo Ocupación</AttributeID>
           <Name>i Tipo Ocupación</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="84a7fadd-878f-413b-befd-9d925d56bc57">
+        <AttributeRelationship dwd:design-time-name="b9fb6fb8-0fdb-45a9-8acb-d976a48b853f">
           <AttributeID>v Tipo Ocupacion</AttributeID>
           <Name>v Tipo Ocupacion</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="235d1bfb-1112-4a11-bbe0-758950983e85">
+        <AttributeRelationship dwd:design-time-name="16e64d80-7965-4b3b-a3cd-3edbac8384a9">
           <AttributeID>i Id Tipo Persona</AttributeID>
           <Name>i Id Tipo Persona</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d9767e2a-45ea-40c9-8778-cf46aebdd3b9">
+        <AttributeRelationship dwd:design-time-name="9cdc7203-7935-4619-bfc5-758b14f3f5d9">
           <AttributeID>v Tipo Persona</AttributeID>
           <Name>v Tipo Persona</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7e93bdb5-c0cc-41e3-8a62-e95b3f008d0e">
+        <AttributeRelationship dwd:design-time-name="269fb5b7-a96b-40d2-8e67-8ca5bb3ca82b">
           <AttributeID>i Id Persona T</AttributeID>
           <Name>i Id Persona T</Name>
         </AttributeRelationship>
@@ -119,14 +119,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5d87c303-0771-4565-920d-6d2feb652511">
+    <Attribute dwd:design-time-name="f2f138e1-e1e7-4021-8141-a1f06a307878">
       <ID>v Nombre</ID>
       <Name>v Nombre</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="70e4cde4-d0b9-4e8d-b6f6-5cf0d99e10d2">
+        <KeyColumn dwd:design-time-name="1bed8c6a-90c6-424f-a838-5da9c1c0a184">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dad54e03-7771-406d-aff3-755d9bc7c14b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ee69f8e-7b86-43fa-b3dd-32a9c23123b1">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>vNombre</ColumnID>
           </Source>
@@ -136,13 +136,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e985840f-36f3-45e1-8b08-6759294c0aef">
+    <Attribute dwd:design-time-name="7b295f14-2c49-4062-a5b0-a5cabd3e8351">
       <ID>i Tipo Ingreso</ID>
       <Name>i Tipo Ingreso</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ddfbef0e-c388-48fd-82d4-ca22427bc832">
+        <KeyColumn dwd:design-time-name="c284e7ad-82a1-4422-96a6-8f1ef74cf9d6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbe61b64-e5cb-4ea6-8303-3a6e64ffcf71">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65e87beb-3155-46c5-ba17-1b8eb963823f">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>iTipoIngreso</ColumnID>
           </Source>
@@ -152,14 +152,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="987d68dd-facf-413c-b1b7-ed0fd6193da3">
+    <Attribute dwd:design-time-name="b125474e-c579-43dd-8bdd-376346702551">
       <ID>v Tipo Ingreso</ID>
       <Name>v Tipo Ingreso</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="878b7447-eb9b-4630-9630-ad3b7889f7c1">
+        <KeyColumn dwd:design-time-name="7e88aa34-97ff-48a0-946c-c07e618a9c1e">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3207740-6dfd-4f1d-8dc0-29377f4284c3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c8b135d-94b9-4ab3-a0dd-a2c65323bb24">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>vTipoIngreso</ColumnID>
           </Source>
@@ -169,13 +169,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="790b07d3-41a8-4427-bf51-97859bdaf6fd">
+    <Attribute dwd:design-time-name="5ef1a5ff-36d9-42a4-ace8-7f02b500c6c8">
       <ID>i Tipo Sexo</ID>
       <Name>i Tipo Sexo</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="841df1db-0911-47cd-a147-49f581e31612">
+        <KeyColumn dwd:design-time-name="076ba147-63e2-45d6-853c-fae1d6c7cf94">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="81db674f-eaad-4ece-90db-c6697ab583a2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="554dc960-8635-4f84-b3d7-2e6af4ef44f4">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>iTipoSexo</ColumnID>
           </Source>
@@ -185,14 +185,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7a5bed99-8f39-4967-8684-5a4207f38101">
+    <Attribute dwd:design-time-name="29e6f33b-56cb-4399-b85a-d808d63367b8">
       <ID>v Tipo Sexo</ID>
       <Name>v Tipo Sexo</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f3b25222-d653-40f4-b631-e330b55296c0">
+        <KeyColumn dwd:design-time-name="0d4f83b4-fc45-4732-96cb-04efdc733038">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc6d0831-6a66-4b8e-8cb3-5ef0ec55e7ca">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="645a32f9-9fac-4c78-bcfc-be2716c638c9">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>vTipoSexo</ColumnID>
           </Source>
@@ -202,13 +202,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0cb7cac0-e538-4850-84bf-736fd24f7ffe">
+    <Attribute dwd:design-time-name="0ec8573e-79ac-4b1e-a4d0-2bf707f5980b">
       <ID>i Estado Civil</ID>
       <Name>i Estado Civil</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b45be821-eeb4-4566-a3b2-a41d27bcef69">
+        <KeyColumn dwd:design-time-name="7b7cdcd6-6a8c-4ce6-afb7-abeb5449904c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80b86be4-86a1-4718-881c-7957b142dcec">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95fcd9d9-6dd0-480c-9810-975979debe19">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>iEstadoCivil</ColumnID>
           </Source>
@@ -218,14 +218,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="af7aace0-b8fd-4ea6-a028-033518b10b3b">
+    <Attribute dwd:design-time-name="6eadf047-3231-4da6-9a8c-d726eada8b2f">
       <ID>v Estado Civil</ID>
       <Name>v Estado Civil</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9875ae8f-a976-445d-8915-205055a6d4fb">
+        <KeyColumn dwd:design-time-name="f0e1cc40-3792-4aa8-87e8-a06cdcd2b6e9">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="372061a9-ba77-475c-877f-c25ec92ae21b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44181e42-1210-4c54-8b44-b2ecd701ba8d">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>vEstadoCivil</ColumnID>
           </Source>
@@ -235,13 +235,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8fd97616-911a-46a9-96d6-0a87876772da">
+    <Attribute dwd:design-time-name="dfbc66fb-93c3-472a-ac6a-a5d109e3b380">
       <ID>i Tipo Ocupación</ID>
       <Name>i Tipo Ocupación</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b60227a0-149f-4938-a5a2-97127e6fa7b0">
+        <KeyColumn dwd:design-time-name="ded88b16-38a9-4813-9481-b2b037f992fe">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a43f29b-25b5-4ae0-a9fd-6180cfdffffd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4595fab5-c6b3-4ab0-8561-a119b75e7026">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>iTipoOcupación</ColumnID>
           </Source>
@@ -251,14 +251,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a69266d7-f66c-4c93-bb82-87602f9fccef">
+    <Attribute dwd:design-time-name="f5d83e03-ed72-4dfd-a07a-3cbc911d240e">
       <ID>v Tipo Ocupacion</ID>
       <Name>v Tipo Ocupacion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f94a18ca-f000-4b91-ae80-4d1bd88b2b6f">
+        <KeyColumn dwd:design-time-name="891eaaf1-d215-483d-9b23-b5585de0016d">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcc1790f-5a70-4dd4-bc44-e49eda8a3787">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc863c9b-9825-4ac5-8bfb-e9706649295f">
             <TableID>dbo_dimPersonaNatural</TableID>
             <ColumnID>vTipoOcupacion</ColumnID>
           </Source>
@@ -268,13 +268,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4aa98cf5-0d4e-45e7-8607-941cd3b26832">
+    <Attribute dwd:design-time-name="1f8333a0-477b-4151-9aaa-80c3995f10d7">
       <ID>i Id Tipo Persona</ID>
       <Name>i Id Tipo Persona</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="18e961ce-7536-46fd-bf92-a1faa33d5b1e">
+        <KeyColumn dwd:design-time-name="c90ad725-2eeb-4fc7-ad00-f6578315bc8a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0b59023-8ee6-49f4-85fa-744ef1ae723b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5ef5437-a142-46c3-833d-24634dbce439">
             <TableID>dbo_dimPersona</TableID>
             <ColumnID>iIdTipoPersona</ColumnID>
           </Source>
@@ -284,14 +284,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="659886ac-a9ff-4b80-a1b7-7b07fd7f9341">
+    <Attribute dwd:design-time-name="81484702-f90e-4e6e-8a0d-f7dc00736e89">
       <ID>v Tipo Persona</ID>
       <Name>v Tipo Persona</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ec6c5799-e0d4-4925-9579-3c85fb85e892">
+        <KeyColumn dwd:design-time-name="38bac34e-dcf5-4209-b701-e813ce484cd4">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a27abf42-ca81-4b6d-9e76-5283bafd0de6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9fb63949-ecb6-4242-8e74-8fcda8cb96e9">
             <TableID>dbo_dimPersona</TableID>
             <ColumnID>vTipoPersona</ColumnID>
           </Source>
@@ -301,13 +301,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="485b8e34-04db-47c8-920d-d16acdf8f58f">
+    <Attribute dwd:design-time-name="e598b284-8665-4c3d-82ae-a2e301d45a0c">
       <ID>i Id Persona T</ID>
       <Name>i Id Persona T</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="46a11eaa-d83f-4a3c-831c-166256aa0ab7">
+        <KeyColumn dwd:design-time-name="1150b4f8-1924-4dd2-a06c-a6e3324b3a29">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80111192-0b83-4c2e-bd66-8815e01c1333">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b99e19e-8bf9-4dbb-b953-db09a3ea942e">
             <TableID>dbo_dimPersona</TableID>
             <ColumnID>iIdPersonaT</ColumnID>
           </Source>
