@@ -325,6 +325,14 @@
           <AttributeID>v Nombre Mes</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6daaff6c-5562-49b1-8f48-c385b14707fb">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="f1c3e691-1333-4612-9d3b-6993e675bbd5">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="5ca6b6e4-1958-4d23-8df1-b397389302f8">
       <ID>Dim Persona</ID>
@@ -384,6 +392,11 @@
           <AttributeID>v Territorio</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="26325ba2-18fa-4a8f-9df9-565e273bfd47">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="41488560-f454-4d65-96c5-be88dc34400a">
       <ID>Dim Producto Modelo</ID>
