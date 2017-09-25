@@ -320,6 +320,11 @@
           <Name>v Territorio</Name>
           <SourceAttributeID>v Territorio</SourceAttributeID>
         </Level>
+        <Level dwd:design-time-name="e9c508e9-c44c-4e0d-8373-1ad24f2c8f42">
+          <ID>v Grupo Zona</ID>
+          <Name>v Grupo Zona</Name>
+          <SourceAttributeID>v Grupo Zona</SourceAttributeID>
+        </Level>
       </Levels>
     </Hierarchy>
   </Hierarchies>
